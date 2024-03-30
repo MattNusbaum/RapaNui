@@ -1,19 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import { BrowserRouter as Router } from 'react-router-dom';
+import Layout from './Layout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1>Hello World</h1>
-       <div class = "navbar">
-        <a href = "/">Home</a>
-        <a href = "map">Map</a>
-        <a href = "about">About</a>
-       </div>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <Layout />
+        </header>
+      </div>
+    </Router>
   );
 }
 
