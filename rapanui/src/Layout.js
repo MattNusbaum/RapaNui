@@ -1,8 +1,8 @@
-import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
-import Home from './Home';
-import MapComponent from './Map';
-import About from './About';
+import React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+import Home from "./Home";
+import MapComponent from "./Map";
+import About from "./About";
 
 function Layout() {
   return (
