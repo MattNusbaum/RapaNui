@@ -8,4 +8,10 @@ function Map() {
       <p>Map content goes here.</p>
     </div>
   );
+<<<<<<< HEAD
 }
+=======
+}
+
+
+>>>>>>> main
