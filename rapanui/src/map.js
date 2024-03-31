@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Map.js
 import React from 'react';
 
@@ -11,3 +12,12 @@ function Map() {
 }
 
 export default Map;
+=======
+import React from 'react'
+
+export default function Map() {
+  return (
+    <div>Map</div>
+  )
+}
+>>>>>>> origin/matt
