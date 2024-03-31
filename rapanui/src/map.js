@@ -1,1 +1,13 @@
-<h1>Map goes here lol</h1>
+// Map.js
+import React from 'react';
+
+function Map() {
+  return (
+    <div>
+      <h2>This is the Map Component!</h2>
+      <p>Map content goes here.</p>
+    </div>
+  );
+}
+
+export default Map;
