@@ -1,7 +1,7 @@
 // Map.js
 import React from 'react';
 
-function Map() {
+export default function Map() {
   return (
     <div>
       <h2>This is the Map Component!</h2>
@@ -9,4 +9,7 @@ function Map() {
     </div>
   );
 }
+<<<<<<< HEAD
 export default Map;
+=======
+>>>>>>> origin/rj

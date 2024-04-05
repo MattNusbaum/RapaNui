@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 
 function About() {
@@ -29,8 +30,19 @@ function About() {
 
         </ol>
       </div>
+=======
+import React from "react";
+
+export default function About() {
+  return (
+    <div>
+      <h1>Rj and Matthew's Map Making Extravaganza.</h1>
+>>>>>>> origin/rj
     </div>
   );
 }
 
+<<<<<<< HEAD
 export default About;
+=======
+>>>>>>> origin/rj
