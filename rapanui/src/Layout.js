@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
-import MapComponent from "./Map";
+import MapComponent from "./map";
 import About from "./About";
 
 function Layout() {
@@ -16,7 +16,7 @@ function Layout() {
             <Link to="/map">Map</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/About">About</Link>
           </li>
         </ul>
       </nav>
